@@ -1,12 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const subscribe = () => (
   <Layout>
-    <SEO title="Page two" />
+    <SEO title="Subscribe" />
     <div className="section" data-component="ContentSubscribe">
       <h1>Subscribe to Proof</h1>
       <p>
