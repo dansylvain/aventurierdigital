@@ -1,11 +1,9 @@
 import { Link } from "gatsby"
-import NavbarStyles from "./Navbar.module.css"
-
 import PropTypes from "prop-types"
 import React from "react"
 
 const Navbar = ({ siteTitle }) => (
-  <div className={NavbarStyles}>
+  <div>
   <div
     data-collapse="medium"
     data-animation="default"
@@ -30,7 +28,7 @@ const Navbar = ({ siteTitle }) => (
       <Link
         to="subscribe"
         aria-current="page"
-        className="nav-link w-nav-link w--current"
+        className="nav-link w-nav-link"
       >
         Subscribe
       </Link>

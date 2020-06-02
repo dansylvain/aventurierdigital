@@ -8,30 +8,15 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import LeftPage from '../pages/LeftPage'
-
-import Navbar from "./Navbar"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+
 
   return (
     <>
-      <div className="all-content w-clearfix">
-          <LeftPage />
-        <div className="main-column content">
-          <Navbar siteTitle={data.site.siteMetadata.title} />
+
           {children}
-        </div>
-      </div>
+
     </>
   )
 }
