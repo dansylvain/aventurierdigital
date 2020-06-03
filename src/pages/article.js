@@ -6,10 +6,11 @@ import SEO from "../components/seo"
 
 const article = () => (
   <LayoutArticle>
+    <SEO title="Article" />
     <div data-component="ArticlePage">
       <div className="header-image">
         <div className="header-container w-container">
-          <Link to="" className="hollow-button">
+          <Link to="/" className="hollow-button">
             ❮ all STORIES
           </Link>
           <div className="credits">Photo credits</div>
@@ -217,19 +218,28 @@ const article = () => (
               </div>
               <div className="author-social-links">
                 <div className="author-connect">Connect with the author</div>
-                <a href="#" className="social-link w-inline-block">
+                <a
+                  href="https://www.twitter.com/"
+                  className="social-link w-inline-block"
+                >
                   <img
                     src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff411515190c78c169_twitter-icon_black.svg"
                     alt=""
                   />
                 </a>
-                <a href="#" className="social-link w-inline-block">
+                <a
+                  href="https://www.facebook.com/"
+                  className="social-link w-inline-block"
+                >
                   <img
                     src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff4115154ea578c16d_facebook-icon_black.svg"
                     alt=""
                   />
                 </a>
-                <a href="#" className="social-link w-inline-block">
+                <a
+                  href="https://www.instagram.com/"
+                  className="social-link w-inline-block"
+                >
                   <img
                     src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff4115155fcb78c168_instagram-icon-black.svg"
                     alt=""
@@ -280,7 +290,10 @@ const article = () => (
       <div className="content-section">
         <div className="w-container">
           <h2 className="alternative-h2 suggestions">Suggested Stories</h2>
-          <Link to="article" className="article suggested w-inline-block w-clearfix">
+          <Link
+            to="/article"
+            className="article suggested w-inline-block w-clearfix"
+          >
             <div className="image-wrapper">
               <img
                 src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff411515659578c16b_thumb17.jpg"
@@ -303,7 +316,10 @@ const article = () => (
               </div>
             </section>
           </Link>
-          <Link to="article" className="article suggested w-inline-block w-clearfix">
+          <Link
+            to="/article"
+            className="article suggested w-inline-block w-clearfix"
+          >
             <div className="image-wrapper">
               <img
                 src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff411515428078c172_thumb6.jpg"
@@ -327,7 +343,7 @@ const article = () => (
             </section>
           </Link>
           <Link
-            to="article"
+            to="/article"
             className="article suggested last w-inline-block w-clearfix"
           >
             <div className="image-wrapper">
@@ -356,16 +372,16 @@ const article = () => (
       </div>
       <div className="content-section footer">
         <div className="w-container">
-          <Link href="" className="footer-link proof">
+          <Link to="/" className="footer-link proof">
             PROOF MAGAZINE
           </Link>
-          <Link to="suggest" className="footer-link">
+          <Link to="/suggest" className="footer-link">
             suggest a story
           </Link>
-          <Link to="about" className="footer-link">
+          <Link to="/about" className="footer-link">
             about
           </Link>
-          <Link to="subscribe" className="footer-link">
+          <Link to="/subscribe" className="footer-link">
             subscribe
           </Link>
         </div>

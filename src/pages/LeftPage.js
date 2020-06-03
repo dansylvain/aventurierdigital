@@ -16,7 +16,7 @@ const LeftPage = () => (
           <div className="byline">By Billy Rogers</div>
         </div>
         <div className="footer-wrapper w-clearfix">
-          <Link to="" className="footer-nav-link w-inline-block">
+          <Link to="/" className="footer-nav-link w-inline-block">
             <img
               src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff4115155b1478c16e_home-icon.svg"
               alt=""

@@ -19,20 +19,20 @@ const Navbar = ({ siteTitle }) => (
     className="navbar w-nav"
   >
     <nav role="navigation" className="nav-menu w-nav-menu">
-      <Link to="" className="nav-link w-nav-link">
+      <Link to="/" className="nav-link w-nav-link">
         Articles
       </Link>
-      <Link to="suggest" className="nav-link w-nav-link">
+      <Link to="/suggest" className="nav-link w-nav-link">
         SUGGEST
       </Link>
       <Link
-        to="subscribe"
+        to="/subscribe"
         aria-current="page"
         className="nav-link w-nav-link"
       >
         Subscribe
       </Link>
-      <Link to="about" className="nav-link w-nav-link">
+      <Link to="/about" className="nav-link w-nav-link">
         About
       </Link>
     </nav>

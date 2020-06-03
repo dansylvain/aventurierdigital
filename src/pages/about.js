@@ -16,19 +16,19 @@ const About = () => (
             alt=""
           />
           <h5>Rob Thomas</h5>
-          <a href="#" className="social-link w-inline-block">
+          <a href="https://twitter.com/" className="social-link w-inline-block">
             <img
               src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff411515190c78c169_twitter-icon_black.svg"
               alt=""
             />
           </a>
-          <a href="#" className="social-link w-inline-block">
+          <a href="https://www.instagram.com/" className="social-link w-inline-block">
             <img
               src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff4115155fcb78c168_instagram-icon-black.svg"
               alt=""
             />
           </a>
-          <a href="#" className="social-link w-inline-block">
+          <a href="https://www.facebook.com/" className="social-link w-inline-block">
             <img
               src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff4115154ea578c16d_facebook-icon_black.svg"
               alt=""
@@ -42,19 +42,19 @@ const About = () => (
             alt=""
           />
           <h5>Jen Jillians</h5>
-          <a href="#" className="social-link w-inline-block">
+          <a href="https://twitter.com/" className="social-link w-inline-block">
             <img
               src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff411515190c78c169_twitter-icon_black.svg"
               alt=""
             />
           </a>
-          <a href="#" className="social-link w-inline-block">
+          <a href="https://www.instagram.com/" className="social-link w-inline-block">
             <img
               src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff4115155fcb78c168_instagram-icon-black.svg"
               alt=""
             />
           </a>
-          <a href="#" className="social-link w-inline-block">
+          <a href="https://www.facebook.com/" className="social-link w-inline-block">
             <img
               src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff4115154ea578c16d_facebook-icon_black.svg"
               alt=""
@@ -68,19 +68,19 @@ const About = () => (
             alt=""
           />
           <h5>Tommy Tikes</h5>
-          <a href="#" className="social-link w-inline-block">
+          <a href="https://twitter.com/" className="social-link w-inline-block">
             <img
               src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff411515190c78c169_twitter-icon_black.svg"
               alt=""
             />
           </a>
-          <a href="#" className="social-link w-inline-block">
+          <a href="https://www.instagram.com/" className="social-link w-inline-block">
             <img
               src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff4115155fcb78c168_instagram-icon-black.svg"
               alt=""
             />
           </a>
-          <a href="#" className="social-link w-inline-block">
+          <a href="https://www.facebook.com/" className="social-link w-inline-block">
             <img
               src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff4115154ea578c16d_facebook-icon_black.svg"
               alt=""

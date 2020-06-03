@@ -1,14 +1,13 @@
-import React, { Fragment } from "react"
+import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Link to="article" className="article w-inline-block w-clearfix">
+    <Link to="/article" className="article w-inline-block w-clearfix">
       <div className="image-wrapper">
         <img
           src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff411515354378c17a_thumb11.jpg"
@@ -31,7 +30,7 @@ const IndexPage = () => (
         </div>
       </section>
     </Link>
-    <Link to="article" className="article w-inline-block w-clearfix">
+    <Link to="/article" className="article w-inline-block w-clearfix">
       <div className="image-wrapper">
         <img
           src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff411515fe4978c16c_thumb14.jpg"
@@ -54,7 +53,7 @@ const IndexPage = () => (
         </div>
       </section>
     </Link>
-    <Link to="article" className="article w-inline-block w-clearfix">
+    <Link to="/article" className="article w-inline-block w-clearfix">
       <div className="image-wrapper">
         <img
           src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff41151548c278c178_thumb10.jpg"
@@ -100,7 +99,7 @@ const IndexPage = () => (
         </div>
       </section>
     </Link>
-    <Link to="article" className="article w-inline-block w-clearfix">
+    <Link to="/article" className="article w-inline-block w-clearfix">
       <div className="image-wrapper">
         <img
           src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff411515d9ca78c16a_thumb3.jpg"
@@ -123,7 +122,7 @@ const IndexPage = () => (
         </div>
       </section>
     </Link>
-    <Link to="article" className="article w-inline-block w-clearfix">
+    <Link to="/article" className="article w-inline-block w-clearfix">
       <div className="image-wrapper">
         <img
           src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff41151581a378c173_thumb7.jpg"
@@ -146,7 +145,7 @@ const IndexPage = () => (
         </div>
       </section>
     </Link>
-    <Link to="article" className="article w-inline-block w-clearfix">
+    <Link to="/article" className="article w-inline-block w-clearfix">
       <div className="image-wrapper">
         <img
           src="https://uploads-ssl.webflow.com/5ecf90ff0d06db6141fa10c3/5ecf90ff411515659578c16b_thumb17.jpg"
