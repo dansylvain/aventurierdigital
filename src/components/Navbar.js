@@ -1,9 +1,17 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import React, { useState } from "react"
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from 'reactstrap';
 
-const Navbar = ({ siteTitle }) => (
+
+const MyNavbar = ({ siteTitle }) => {
+  const [collapsed, setCollapsed] = useState(true);
+
+  const toggleNavbar = () => setCollapsed(!collapsed);
+
+return (
   <div>
+
   <div
     data-collapse="medium"
     data-animation="default"
@@ -12,7 +20,10 @@ const Navbar = ({ siteTitle }) => (
     className="w-nav"
   />
   <nav
-    data-collapse="small"
+  style={{padding: 0,
+    justifyContent: "flex-start",
+    }}
+    data-collapse="medium"
     data-animation="default"
     data-duration={400}
     role="banner"
@@ -36,20 +47,41 @@ const Navbar = ({ siteTitle }) => (
         About
       </Link>
     </nav>
-    <div className="menu-wrapper w-clearfix w-nav-button">
+    <div className="menu-wrapper w-clearfix w-nav-button"
+    style={{
+      padding: 0,
+      justifyContent: "center"}}>
       <div className="menu">MENU</div>
-      <div className="menu-icon w-icon-nav-menu" />
-    </div>
+      <Navbar color="faded" light style={{boxShadow: "none"}}>
+        <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+        <Collapse isOpen={!collapsed} navbar>
+          <Nav navbar>
+            <NavItem>
+              <Link style={{color: "#000000"}} to="/">ARTICLES</Link>
+            </NavItem>
+            <NavItem>
+              <Link style={{color: "#000000"}} to="/suggest">SUGGEST</Link>
+            </NavItem>
+            <NavItem>
+              <Link style={{color: "#000000"}} to="/subscribe">SUBSCRIBE</Link>
+            </NavItem>
+            <NavItem>
+              <Link style={{color: "#000000"}} to="/about">ABOUT</Link>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>    </div>
   </nav>
 </div>
 )
+}
 
-Navbar.propTypes = {
+MyNavbar.propTypes = {
   siteTitle: PropTypes.string,
 }
 
-Navbar.defaultProps = {
+MyNavbar.defaultProps = {
   siteTitle: ``,
 }
 
-export default Navbar
+export default MyNavbar
